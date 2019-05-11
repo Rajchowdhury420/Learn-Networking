@@ -1,0 +1,5 @@
+Conservation of IP addresses: Imagine having a network of 20 hosts. Using a Class C network will waste a lot of IP addresses (254-20=234). Breaking up large networks into smaller parts would be more efficient and would conserve a great amount of addresses.
+
+Reduced network traffic: The smaller networks created the smaller broadcast domains are formed hence less broadcast traffic on network boundaries.
+
+Simplification: Breaking large networks into smaller ones could simplify fault troubleshooting by isolating network problems down to their specific existence.

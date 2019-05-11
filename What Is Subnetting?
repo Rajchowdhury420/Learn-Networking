@@ -1,0 +1,5 @@
+Subnetting is the process of stealing bits from the HOST part of an IP address in order 
+to divide the larger network into smaller sub-networks called subnets. 
+After subnetting, we end up with NETWORK SUBNET HOST fields. 
+We always reserve an IP address to identify the subnet and another one to identify the broadcast address within the subnet.
+In the following sections you will find out how all this is possible.

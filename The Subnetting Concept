@@ -1,0 +1,6 @@
+You will be surprised how easy the concept of Subnetting really is. Imagine a network with a total of 256 addresses (a Class C network). One of these addresses is used to identify the network address and another one is used to identify the broadcast address on the network. Therefore, we are left with 254 addresses available for addressing hosts.
+
+If we take all these addresses and divide them equally into 8 different subnets we still keep the total number of original addresses, but we have now split them into 8 subnets with 32 addresses in each. Each new subnet needs to dedicate 2 addresses for the subnet and broadcast address within the subnet.
+
+The result is that we eventually come up with 8 subnets, each one possessing 30 addresses available for hosts. You can see that the total amount of addressable hosts is reduced (240 instead of 254) but better management of addressing space is gained. I'll now use a couple of examples to help explain the process of subnetting as clearly as possible.
+

@@ -1,0 +1,75 @@
+Principles of OSI Reference Model
+
+The OSI reference model has 7 layers. The principles that were applied to arrive at the seven layers can be briefly summarized as follows:
+
+    A layer should be created where a different abstraction is needed.
+    Each layer should perform a well-defined function.
+    The function of each layer should be chosen with an eye toward defining internationally standardized protocols.
+    The layer boundaries should be chosen to minimize the information flow across the interfaces.
+    The number of layers should be large enough that distinct functions need not be thrown together in the same layer out of necessity and small enough that architecture does not become unwieldly.
+
+Functions of Different Layers
+
+Following are the functions performed by each layer of the OSI model. This is just an introduction, we will cover each layer in details in the coming tutorials.
+OSI Model Layer 1: The Physical Layer
+
+    Physical Layer is the lowest layer of the OSI Model.
+    It activates, maintains and deactivates the physical connection.
+    It is responsible for transmission and reception of the unstructured raw data over network.
+    Voltages and data rates needed for transmission is defined in the physical layer.
+    It converts the digital/analog bits into electrical signal or optical signals.
+    Data encoding is also done in this layer.
+
+OSI Model Layer 2: Data Link Layer
+
+    Data link layer synchronizes the information which is to be transmitted over the physical layer.
+    The main function of this layer is to make sure data transfer is error free from one node to another, over the physical layer.
+    Transmitting and receiving data frames sequentially is managed by this layer.
+    This layer sends and expects acknowledgements for frames received and sent respectively. Resending of non-acknowledgement received frames is also handled by this layer.
+    This layer establishes a logical layer between two nodes and also manages the Frame traffic control over the network. It signals the transmitting node to stop, when the frame buffers are full.
+
+OSI Model Layer 3: The Network Layer
+
+    Network Layer routes the signal through different channels from one node to other.
+    It acts as a network controller. It manages the Subnet traffic.
+    It decides by which route data should take.
+    It divides the outgoing messages into packets and assembles the incoming packets into messages for higher levels.
+
+OSI Model Layer 4: Transport Layer
+
+    Transport Layer decides if data transmission should be on parallel path or single path.
+    Functions such as Multiplexing, Segmenting or Splitting on the data are done by this layer
+    It receives messages from the Session layer above it, convert the message into smaller units and passes it on to the Network layer.
+    Transport layer can be very complex, depending upon the network requirements.
+
+Transport layer breaks the message (data) into small units so that they are handled more efficiently by the network layer.
+OSI Model Layer 5: The Session Layer
+
+    Session Layer manages and synchronize the conversation between two different applications.
+    Transfer of data from source to destination session layer streams of data are marked and are resynchronized properly, so that the ends of the messages are not cut prematurely and data loss is avoided.
+
+OSI Model Layer 6: The Presentation Layer
+
+    Presentation Layer takes care that the data is sent in such a way that the receiver will understand the information (data) and will be able to use the data.
+    While receiving the data, presentation layer transforms the data to be ready for the application layer.
+    Languages(syntax) can be different of the two communicating systems. Under this condition presentation layer plays a role of translator.
+    It perfroms Data compression, Data encryption, Data conversion etc.
+
+OSI Model Layer 7: Application Layer
+
+    Application Layer is the topmost layer.
+    Transferring of files disturbing the results to the user is also done in this layer. Mail services, directory services, network resource etc are services provided by application layer.
+    This layer mainly holds application programs to act upon the received and to be sent data.
+
+Merits of OSI reference model
+
+    OSI model distinguishes well between the services, interfaces and protocols.
+    Protocols of OSI model are very well hidden.
+    Protocols can be replaced by new protocols as technology changes.
+    Supports connection oriented services as well as connectionless service.
+
+Demerits of OSI reference model
+
+    Model was devised before the invention of protocols.
+    Fitting of protocols is tedious task.
+    It is just used as a reference model.

@@ -1,0 +1,143 @@
+BUS Topology
+
+Bus topology is a network type in which every computer and network device is connected to single cable. When it has exactly two endpoints, then it is called Linear Bus topology.
+
+Bus topology in computer networks
+Features of Bus Topology
+
+    It transmits data only in one direction.
+    Every device is connected to a single cable
+
+Advantages of Bus Topology
+
+    It is cost effective.
+    Cable required is least compared to other network topology.
+    Used in small networks.
+    It is easy to understand.
+    Easy to expand joining two cables together.
+
+Disadvantages of Bus Topology
+
+    Cables fails then whole network fails.
+    If network traffic is heavy or nodes are more the performance of the network decreases.
+    Cable has a limited length.
+    It is slower than the ring topology.
+
+
+
+
+
+
+
+RING Topology
+
+It is called ring topology because it forms a ring as each computer is connected to another computer, with the last one connected to the first. Exactly two neighbours for each device.
+
+Ring topology in computer networks
+Features of Ring Topology
+
+    A number of repeaters are used for Ring topology with large number of nodes, because if someone wants to send some data to the last node in the ring topology with 100 nodes, then the data will have to pass through 99 nodes to reach the 100th node. Hence to prevent data loss repeaters are used in the network.
+    The transmission is unidirectional, but it can be made bidirectional by having 2 connections between each Network Node, it is called Dual Ring Topology.
+    In Dual Ring Topology, two ring networks are formed, and data flow is in opposite direction in them. Also, if one ring fails, the second ring can act as a backup, to keep the network up.
+    Data is transferred in a sequential manner that is bit by bit. Data transmitted, has to pass through each node of the network, till the destination node.
+
+Advantages of Ring Topology
+
+    Transmitting network is not affected by high traffic or by adding more nodes, as only the nodes having tokens can transmit data.
+    Cheap to install and expand
+
+Disadvantages of Ring Topology
+
+    Troubleshooting is difficult in ring topology.
+    Adding or deleting the computers disturbs the network activity.
+    Failure of one computer disturbs the whole network.
+
+
+
+
+
+
+
+
+
+
+
+STAR Topology
+
+In this type of topology all the computers are connected to a single hub through a cable. This hub is the central node and all others nodes are connected to the central node.
+
+Star topology in computer networks
+Features of Star Topology
+
+    Every node has its own dedicated connection to the hub.
+    Hub acts as a repeater for data flow.
+    Can be used with twisted pair, Optical Fibre or coaxial cable.
+
+Advantages of Star Topology
+
+    Fast performance with few nodes and low network traffic.
+    Hub can be upgraded easily.
+    Easy to troubleshoot.
+    Easy to setup and modify.
+    Only that node is affected which has failed, rest of the nodes can work smoothly.
+
+Disadvantages of Star Topology
+
+    Cost of installation is high.
+    Expensive to use.
+    If the hub fails then the whole network is stopped because all the nodes depend on the hub.
+    Performance is based on the hub that is it depends on its capacity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MESH Topology
+
+It is a point-to-point connection to other nodes or devices. All the network nodes are connected to each other. Mesh has n(n-1)/2 physical channels to link n devices.
+
+There are two techniques to transmit data over the Mesh topology, they are :
+
+    Routing
+    Flooding
+
+MESH Topology: Routing
+
+In routing, the nodes have a routing logic, as per the network requirements. Like routing logic to direct the data to reach the destination using the shortest distance. Or, routing logic which has information about the broken links, and it avoids those node etc. We can even have routing logic, to re-configure the failed nodes.
+MESH Topology: Flooding
+
+In flooding, the same data is transmitted to all the network nodes, hence no routing logic is required. The network is robust, and the its very unlikely to lose the data. But it leads to unwanted load over the network.
+
+Mesh topology in computer networks
+Types of Mesh Topology
+
+    Partial Mesh Topology : In this topology some of the systems are connected in the same fashion as mesh topology but some devices are only connected to two or three devices.
+    Full Mesh Topology : Each and every nodes or devices are connected to each other.
+
+Features of Mesh Topology
+
+    Fully connected.
+    Robust.
+    Not flexible.
+
+Advantages of Mesh Topology
+
+    Each connection can carry its own data load.
+    It is robust.
+    Fault is diagnosed easily.
+    Provides security and privacy.
+
+Disadvantages of Mesh Topology
+
+    Installation and configuration is difficult.
+    Cabling cost is more.
+    Bulk wiring is required.

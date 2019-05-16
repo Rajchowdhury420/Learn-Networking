@@ -1,0 +1,77 @@
+The TCP/IP Reference Model
+
+TCP/IP means Transmission Control Protocol and Internet Protocol. It is the network model used in the current Internet architecture as well. Protocols are set of rules which govern every possible communication over a network. These protocols describe the movement of data between the source and destination or the internet. They also offer simple naming and addressing schemes.
+
+Diagram Representation of TCP/IP Model
+
+Protocols and networks in the TCP/IP model:
+
+Diagram Representation of TCP/IP Model
+Overview of TCP/IP reference model
+
+TCP/IP that is Transmission Control Protocol and Internet Protocol was developed by Department of Defence's Project Research Agency (ARPA, later DARPA) as a part of a research project of network interconnection to connect remote machines.
+
+The features that stood out during the research, which led to making the TCP/IP reference model were:
+
+    Support for a flexible architecture. Adding more machines to a network was easy.
+    The network was robust, and connections remained intact untill the source and destination machines were functioning.
+
+The overall idea was to allow one application on one computer to talk to(send data packets) another application running on different computer.
+Different Layers of TCP/IP Reference Model
+
+Below we have discussed the 4 layers that form the TCP/IP reference model:
+
+Layer 1: Host-to-network Layer
+
+    Lowest layer of the all.
+    Protocol is used to connect to the host, so that the packets can be sent over it.
+    Varies from host to host and network to network.
+
+Layer 2: Internet layer
+
+    Selection of a packet switching network which is based on a connectionless internetwork layer is called a internet layer.
+    It is the layer which holds the whole architecture together.
+    It helps the packet to travel independently to the destination.
+    Order in which packets are received is different from the way they are sent.
+    IP (Internet Protocol) is used in this layer.
+    The various functions performed by the Internet Layer are:
+        Delivering IP packets
+        Performing routing
+        Avoiding congestion
+
+Layer 3: Transport Layer
+
+    It decides if data transmission should be on parallel path or single path.
+    Functions such as multiplexing, segmenting or splitting on the data is done by transport layer.
+    The applications can read and write to the transport layer.
+    Transport layer adds header information to the data.
+    Transport layer breaks the message (data) into small units so that they are handled more efficiently by the network layer.
+    Transport layer also arrange the packets to be sent, in sequence.
+
+Layer 4: Application Layer
+
+The TCP/IP specifications described a lot of applications that were at the top of the protocol stack. Some of them were TELNET, FTP, SMTP, DNS etc.
+
+    TELNET is a two-way communication protocol which allows connecting to a remote machine and run applications on it.
+    FTP(File Transfer Protocol) is a protocol, that allows File transfer amongst computer users connected over a network. It is reliable, simple and efficient.
+    SMTP(Simple Mail Transport Protocol) is a protocol, which is used to transport electronic mail between a source and destination, directed via a route.
+    DNS(Domain Name Server) resolves an IP address into a textual address for Hosts connected over a network.
+    It allows peer entities to carry conversation.
+    It defines two end-to-end protocols: TCP and UDP
+        TCP(Transmission Control Protocol): It is a reliable connection-oriented protocol which handles byte-stream from source to destination without error and flow control.
+        UDP(User-Datagram Protocol): It is an unreliable connection-less protocol that do not want TCPs, sequencing and flow control. Eg: One-shot request-reply kind of service.
+
+Merits of TCP/IP model
+
+    It operated independently.
+    It is scalable.
+    Client/server architecture.
+    Supports a number of routing protocols.
+    Can be used to establish a connection between two computers.
+
+Demerits of TCP/IP
+
+    In this, the transport layer does not guarantee delivery of packets.
+    The model cannot be used in any other application.
+    Replacing protocol is not easy.
+    It has not clearly separated its services, interfaces and protocols.
